@@ -17,6 +17,6 @@ spec:
     spec:
       containers:
         - name: intent-classifier
-          image: us-east4-docker.pkg.dev/namalas-test00/intent-classifier-model/model-image:1.0
+          image: <image_name>
           ports:
             - containerPort: 6000
